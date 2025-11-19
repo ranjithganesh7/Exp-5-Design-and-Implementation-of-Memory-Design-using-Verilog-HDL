@@ -73,7 +73,8 @@ always #10 clk_t = ~clk_t;
 endmodule
 ```
 # Output Waveform
-<img width="1920" height="1200" alt="Screenshot 2025-10-08 222159" src="https://github.com/user-attachments/assets/c0fefb9c-0024-457a-ada4-5f1b418866b8" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/7e9d7129-e92f-4930-9292-a5fc255f47cb" />
+
 
 # ROM
 ```
@@ -124,7 +125,8 @@ always #10 clk_t=~clk_t;
 endmodule
 ```
 # Output Waveform
-<img width="1920" height="1200" alt="Screenshot 2025-10-08 223442" src="https://github.com/user-attachments/assets/5ff8548f-a5fa-4011-bbbd-eeafa1775c1b" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/349c94cc-31c4-4af4-87f4-2a4cae5d37a6" />
+
 
  # FIFO
  ```
@@ -203,7 +205,7 @@ module syn_fifo_tb;
 endmodule
 ```
 # Output Waveform
-<img width="1920" height="1200" alt="Screenshot 2025-10-08 225026" src="https://github.com/user-attachments/assets/ea5d9427-d081-4c53-9037-0dade9cdc962" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/0eb040f1-f779-4cb3-a305-f14d55a9785b" />
 
 # Conclusion
 The RAM, ROM, FIFO memory with read and write operations was designed and successfully simulated using Verilog HDL. The testbench verified both the write and read functionalities by simulating the memory operations and observing the output waveforms. The experiment demonstrates how to implement memory operations in Verilog, effectively modeling both the reading and writing processes.
